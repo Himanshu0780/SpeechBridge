@@ -40,7 +40,7 @@ def banner():
     print(f"""
 {ORANGE}{BOLD}
 ╔══════════════════════════════════════════════════════════════╗
-║        🇮🇳  Bharat Voice Translator AI  —  Demo Mode         ║
+║        🇮🇳  SpeechBridge                 —  Demo Mode         ║
 ║     Real-Time Indian Multilingual Speech Translation         ║
 ╚══════════════════════════════════════════════════════════════╝
 {RESET}""")
