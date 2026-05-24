@@ -1,0 +1,50 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Bharat Voice Translator AI – Python Dependencies
+# Run:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core ML / AI ──────────────────────────────────────────────────────────────
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.38.0
+openai-whisper>=20231117          # ASR – whisper tiny/base (CPU)
+
+# ── Audio processing ───────────────────────────────────────────────────────────
+librosa>=0.10.0
+soundfile>=0.12.0
+numpy>=1.24.0
+
+# ── Microphone capture (choose one or install both) ────────────────────────────
+sounddevice>=0.4.6                # preferred
+# pyaudio>=0.2.13                 # alternative – may need portaudio system lib
+
+# ── Language detection ─────────────────────────────────────────────────────────
+langdetect>=1.0.9
+
+# ── Translation ────────────────────────────────────────────────────────────────
+deep-translator>=1.11.4           # Google Translate fallback
+# googletrans==4.0.0rc1           # alternative fallback (pin this version)
+sentencepiece>=0.1.99             # required by Helsinki-NLP tokenisers
+sacremoses>=0.1.1                 # Helsinki-NLP tokenisation
+
+# ── Text-to-Speech ─────────────────────────────────────────────────────────────
+gTTS>=2.3.2
+pyttsx3>=2.90                     # offline TTS fallback
+
+# ── Evaluation ─────────────────────────────────────────────────────────────────
+sacrebleu>=2.3.2
+nltk>=3.8.1
+
+# ── Data / utilities ───────────────────────────────────────────────────────────
+pandas>=2.0.0
+scipy>=1.10.0
+
+# ── Streamlit UI ───────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+plotly>=5.18.0
+folium>=0.15.0
+streamlit-folium>=0.18.0
+
+# ── Optional extras ────────────────────────────────────────────────────────────
+# streamlit-lottie>=0.0.5         # Lottie animations
+# streamlit-elements>=0.1.0       # drag-drop dashboard elements
