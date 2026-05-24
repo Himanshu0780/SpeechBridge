@@ -1,6 +1,6 @@
 #!/bin/bash
 # ============================================================
-# run.sh — Bharat Voice Translator AI Launcher
+# run.sh — SpeechBridge Launcher
 # ============================================================
 # Usage:
 #   chmod +x run.sh
@@ -85,7 +85,7 @@ case "$cmd" in
 
   ui|"")
     banner
-    echo -e "${TEAL}Starting Bharat Voice Translator AI...${RESET}"
+    echo -e "${TEAL}Starting SpeechBridge...${RESET}"
     echo -e "${GRAY}Open your browser at: http://localhost:8501${RESET}"
     echo -e "${GRAY}Press Ctrl+C to stop${RESET}"
     echo ""
