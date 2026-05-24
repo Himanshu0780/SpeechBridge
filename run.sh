@@ -23,7 +23,7 @@ RESET='\033[0m'
 banner() {
   echo -e "${ORANGE}${BOLD}"
   echo "  ╔══════════════════════════════════════════════════╗"
-  echo "  ║    🇮🇳  Bharat Voice Translator AI               ║"
+  echo "  ║    🇮🇳  SpeechBridge                              ║"
   echo "  ║    Real-Time Indian Multilingual Translation     ║"
   echo "  ╚══════════════════════════════════════════════════╝"
   echo -e "${RESET}"
