@@ -2,7 +2,7 @@
 """
 setup_check.py
 ---------------
-Environment validation script for Bharat Voice Translator AI.
+Environment validation script for SpeechBridge.
 Run this after installing requirements to verify everything is set up correctly.
 
 Usage:
@@ -106,7 +106,7 @@ def check_pipeline_import():
 def main():
     print(f"""
 {BLUE}{BOLD}╔══════════════════════════════════════════════════════════╗
-║  🇮🇳 Bharat Voice Translator AI — Environment Check     ║
+║  🇮🇳 SpeechBridge                             — Environment Check     ║
 ╚══════════════════════════════════════════════════════════╝{RESET}
 """)
 
